@@ -154,4 +154,4 @@ ${TESTS_BINARY} \
     -test.timeout=3h \
     -test.v \
     "${GINKGO_FLAKE}" \
-    "${skip_arg}"
+    "${skip_arg}" || sleep 9999
